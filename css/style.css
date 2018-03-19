@@ -1,0 +1,70 @@
+header {
+    margin: 3px;
+    background: #cdcdcd;
+
+}
+.img-icon {
+    margin: 10px;
+
+}
+
+.bg-body {
+    background: #cdcdcd;
+    padding: 0px;
+}
+
+.my-logo {
+    
+}
+
+.main-padding {
+    padding-left: 0% ;
+    padding-right: 0%;
+}
+
+.my-header {
+    padding-top: 20px ;   
+    padding-bottom: 20px;    
+    background: white;
+}
+
+.real-header {
+    margin-right: 30%;
+    margin-left: 35%;
+
+}
+
+.my-img {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* .my-img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+} */
+
+/* .my-img-description {
+    position: relative;
+    bottom: 8px;
+    right: 16px;
+} */
+
+.my-alubum-body {
+    background: #1b232b;
+    opacity: 0.9;
+    padding: 5%;
+    font-family: "PT Serif",serif;
+    font-size: 100%;
+    line-height: 2em;     /* 行距 */
+    letter-spacing: .2em;   /* 字距 */
+    color: #cdcdcd;
+}
+
+.album-text {
+    padding-top: 80px;
+}
+
+img {
+    text-align: center;
+}
