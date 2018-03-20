@@ -1,41 +1,53 @@
 header {
-    background: transparent;
-    /* position: fixed; */
+    /* background: transparent; */
     position: fixed;
     top: 0;
     width: 100%;
 }
 body {
     background-image: url(../img/albumPhoto/sheep/album_01.png);
-    background-size: 100% auto;
+    background-size: 120% auto;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .img-icon {
-    margin: 10px;
+    margin: 3%;
 }
 .my-logo {
     position: relative;
-    top: -120px;
+    /* top: -120px; */
 }
+
 
 .bg-body {
     background: #cdcdcd;
     padding: 0px;
 }
 
-.my-alubum-body {
+.my-album-body {
     background: #1b232b;
-    opacity: 0.9;
-    padding: 10%;
-    /* font-family: "PT Serif",serif; */
+    opacity: .9;
+    padding: 8%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: "PT Serif",serif;
     font-size: 70%;
     line-height: 2em;     /* 行距 */
     letter-spacing: .3em;   /* 字距 */
     color: #cdcdcd;
 }
 
+.my-album-body hr {
+    width: 20%;
+    border-top: 1px solid #cdcdcd;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .album-img {
-    height: 240px;
+    height: 160px;
+    opacity: 1 !important;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .main-padding {
@@ -46,7 +58,7 @@ body {
 .my-header {
     padding-top: 20px ;   
     padding-bottom: 20px;    
-    background: white;
+    background: #cdcdcd;
 }
 
 .real-header {
@@ -55,28 +67,35 @@ body {
 
 }
 
-.my-img {
-    opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
-}
-
-/* .my-img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-} */
-
-/* .my-img-description {
-    position: relative;
-    bottom: 8px;
-    right: 16px;
-} */
-
-
-
 .album-text {
     padding-top: 80px;
 }
 
-img {
-    text-align: center;
-}
+
+/* PULSATING CARET */
+[data-typer]:after {
+    content:"";
+    display: inline-block;
+    vertical-align: middle;
+    width:3px;
+    height:1em;
+    font-family: "PT Serif",serif;
+    font-size: 70%;
+    line-height: 2em;     /* 行距 */
+    letter-spacing: .3em;   /* 字距 */
+    background:#cdcdcd;
+            animation: caretPulsate 3s linear infinite; 
+    -webkit-animation: caretPulsate 2s linear infinite; 
+  }
+  @keyframes caretPulsate {
+    0%   {opacity:1;}
+    50%  {opacity:1;}
+    60%  {opacity:0;}
+    100% {opacity:0;}
+  }
+  @-webkit-keyframes caretPulsate {
+    0%   {opacity:1;}
+    50%  {opacity:1;}
+    60%  {opacity:0;}
+    100% {opacity:0;}
+  }
