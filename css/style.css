@@ -5,7 +5,6 @@ header {
     top: 0;
     width: 100%;
 }
-
 body {
     background-image: url(../img/albumPhoto/sheep/album_01.png);
     background-size: 100% auto;
@@ -14,16 +13,29 @@ body {
 .img-icon {
     margin: 10px;
 }
-
 .my-logo {
     position: relative;
     top: -120px;
 }
 
-
 .bg-body {
     background: #cdcdcd;
     padding: 0px;
+}
+
+.my-alubum-body {
+    background: #1b232b;
+    opacity: 0.9;
+    padding: 10%;
+    /* font-family: "PT Serif",serif; */
+    font-size: 70%;
+    line-height: 2em;     /* 行距 */
+    letter-spacing: .3em;   /* 字距 */
+    color: #cdcdcd;
+}
+
+.album-img {
+    height: 240px;
 }
 
 .main-padding {
@@ -59,16 +71,7 @@ body {
     right: 16px;
 } */
 
-.my-alubum-body {
-    background: #1b232b;
-    opacity: 0.9;
-    padding: 5%;
-    font-family: "PT Serif",serif;
-    font-size: 100%;
-    line-height: 2em;     /* 行距 */
-    letter-spacing: .2em;   /* 字距 */
-    color: #cdcdcd;
-}
+
 
 .album-text {
     padding-top: 80px;
