@@ -9,6 +9,7 @@ header {
 body {
     background-image: url(../img/albumPhoto/sheep/album_01.png);
     background-size: 100% auto;
+    background-attachment: fixed;
 }
 .img-icon {
     margin: 10px;
