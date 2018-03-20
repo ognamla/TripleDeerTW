@@ -1,20 +1,27 @@
 header {
-    margin: 3px;
-    background: #cdcdcd;
+    background: transparent;
+    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
+body {
+    background-image: url(../img/albumPhoto/sheep/album_01.png);
+    background-size: 100% auto;
 }
 .img-icon {
     margin: 10px;
+}
 
+.my-logo {
+    position: relative;
+    top: -120px;
 }
 
 .bg-body {
     background: #cdcdcd;
     padding: 0px;
-}
-
-.my-logo {
-    
 }
 
 .main-padding {
