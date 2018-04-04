@@ -7,7 +7,7 @@ header {
 }
 body {
     background-image: url(../img/albumPhoto/sheep/album_01.png);
-    background-size: 120% auto;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -23,6 +23,7 @@ body {
     opacity: .9;
     padding: 8%;
     margin-right: 5%;
+    white-space: nowrap;
     margin-left: 5%;
     font-family: "PT Serif",serif;
     font-size: 70%;
@@ -45,11 +46,17 @@ hr {
 }
 
 .album-text {
+    background: #ffffff;
+    opacity: .9;
+    padding: 8%;
+    margin-right: 5%;
+    margin-left: 5%;
     font-family: "PT Serif",serif;
+    white-space: nowrap;
     font-size: 70%;
     line-height: 2em;     /* 行距 */
     letter-spacing: .3em;   /* 字距 */
-    color: #1b232b69;
+    color: #1b232b;
 }
 
 /* .album-img2 {
